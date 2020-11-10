@@ -1,7 +1,7 @@
 print("*** Converting the Fahrenheit Celsius ***")
 print("Convert Celsius to Fahrenheit: type-F ")
 print("Convert Fahrenheit to Celsius: type-C ")
-inp = input("What do you want: ")
+inp = input("What do you want: ").upper()
 if inp == "F":
     fahrenheit = float(input("Enter the Temperature in Celsius: "))
     f = (fahrenheit * 1.8) + 32
