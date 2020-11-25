@@ -4,11 +4,11 @@ Convert Fahrenheit to Celsius: type-C""")
 
 inp = input("What do you want: ").upper()
 if inp == "F":
-    fahrenheit = float(input("Enter the Temperature in Celsius: "))
+    fahrenheit = float(input("Enter the temperature in Celsius: "))
     f = (fahrenheit * 1.8) + 32
     print("Fahrenheit: ", f)
 elif inp == "C":
-    celsius = float(input("Enter the Temperature in fahrenheit: "))
+    celsius = float(input("Enter the temperature in Fahrenheit: "))
     c = (celsius - 32) * 5 / 9
     print("Celsius: ", c)
 else:
